@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
-
+/* import './App.css';
+import {NavBar} from './component/navBar';
+import {ItemList} from './component/itemlist';
 function App() {
+  let name1 = "Aaryan";
+  let name2 = "Arush";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar name={name1} name1={name2}/>
+      <ItemList/>
+    </>
   );
 }
+export default App; */
 
+
+
+import './App.css';
+import {NavBar} from './component/navBar';
+import {ItemList} from './component/itemlist';
+import { AddTodo } from './component/addTodo';
+import {About} from './component/about'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'  
+function App() {
+  let name1 = "Aaryan";
+  let name2 = "Arush";
+  return (
+    <>
+      <NavBar name={name1} name1={name2}/>
+     
+      <ItemList/>
+      
+    </>
+  );
+}
 export default App;

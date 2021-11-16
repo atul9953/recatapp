@@ -1,0 +1,23 @@
+/* #todoimg{
+
+    height: 50%;
+    width: 50%;
+}
+ */
+
+
+
+ #mycard {
+    width: 20rem;
+    margin-right: 10px;
+    background-color: rgb(23, 23, 23);
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+#title {
+    color: aliceblue;
+}
+#desc {
+    color: aliceblue;
+}
